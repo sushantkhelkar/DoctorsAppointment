@@ -1,0 +1,118 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    background-color: #f4f4f4;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.back {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('BackGround.jpg');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#log {
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px); 
+    border-radius: 20px;
+    padding: 40px;
+    width: 100%;
+    max-width: 500px;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+.heading {
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.subheading {
+    font-size: 24px;
+    color: white;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.thank-you-text {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+.img-container {
+    margin-bottom: 20px;
+}
+
+.thank-you-img {
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+.btn {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 30px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #218838;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+    .heading {
+        font-size: 28px;
+    }
+
+    .subheading {
+        font-size: 20px;
+    }
+
+    .thank-you-text {
+        font-size: 24px;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 12px 25px;
+    }
+
+    .thank-you-img {
+        width: 200px;
+    }
+}

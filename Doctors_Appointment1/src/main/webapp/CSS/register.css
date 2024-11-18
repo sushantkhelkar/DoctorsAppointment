@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.form-container {
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+}
+
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+
+.fontfamily {
+    font-family: 'Arial', sans-serif;
+}
+
+
+#btncontainer {
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 20px;
+    width: 100%;
+}
+
+.btm-btn1, .btm-btn2 {
+   
+    color: black;
+    padding: 6px 12px; 
+    font-size: 14px; 
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.btm-btn1:hover, .btm-btn2:hover {
+   
+    transform: scale(1.05); 
+}
+
+.btm-btn1:active, .btm-btn2:active {
+    transform: scale(1); 
+}
+
+
+.fontfamily {
+    font-family: 'Arial', sans-serif;
+}
+
+
+@media (max-width: 768px) {
+    .form-container {
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%); 
+    }
+
+    .btn-primary {
+        padding: 10px 20px;
+    }
+
+    .btm-btn1, .btm-btn2 {
+        padding: 6px 12px; 
+        font-size: 14px; 
+    }
+}
